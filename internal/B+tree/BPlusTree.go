@@ -1,9 +1,5 @@
 package BPlusTree
 
-type BNode struct {
-	data []byte
-}
-
 const (
 	BNODE_NODE = 1 // internal nodes without values
 	BNODE_LEAF = 2 // leaf nodes with values
